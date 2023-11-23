@@ -1,0 +1,177 @@
+/* Reset de estilos para garantizar consistencia en diferentes navegadores */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Establece la imagen de fondo */
+    background-image: url('Imagenes/Libreria.jpeg');
+    
+    /* Ajusta el tamaño de la imagen para cubrir más fondo */
+    background-size: cover;
+
+    /* Centra la imagen en el fondo */
+    background-position: center;
+
+    /* Evita la repetición de la imagen en el fondo */
+    background-repeat: no-repeat;
+
+    /* Ajusta la altura mínima para garantizar que la imagen cubra todo el contenido */
+    min-height: 100vh;
+    
+    /* Ajusta el relleno para crear más espacio alrededor del contenido */
+    padding: 50px; /* Puedes ajustar este valor según tus necesidades */
+    
+    /* Asegura que el texto sea visible */
+    color: #fff; /* Establece el color del texto como blanco o el color deseado */
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos dentro del cuerpo */
+    flex-direction: column; /* Alinea verticalmente los elementos en columna */
+}
+
+/* Otros estilos para el contenido de la página */
+h1, h2, h3, p {
+    /* Ajusta el color del texto para que sea visible sobre la imagen de fondo */
+    color: #fff; /* Establece el color del texto como blanco o el color deseado */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+}
+
+nav {
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+    text-align: center; /* Centra los enlaces horizontalmente */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    font-size: 20px; /* Ajusta el tamaño de la letra según sea necesario */
+    color: #fff; /* Establece el color del texto como blanco o el color deseado */
+    text-decoration: none; /* Elimina el subrayado de los enlaces si lo hay */
+}
+
+/* Dentro de tu bloque de estilos */
+
+#video-container {
+    max-width: 75%;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: auto;
+}
+
+#video-container iframe {
+    width: 250%; /* Haz que el video ocupe el ancho completo del contenedor */
+    height: 50vh; /* Establece una altura relativa al 60% del viewport height */
+}
+
+
+#biografia {
+    text-align: center;
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+}
+
+#biografia h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#biografia p {
+    font-size: 18px;
+}
+
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('Imagenes/Libreria.jpeg');
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        #contact-form {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 14px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
