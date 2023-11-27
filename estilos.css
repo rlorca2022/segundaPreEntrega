@@ -1,11 +1,69 @@
 .navbar {
-    background-color: rgba(0, 0, 0, 0.8)
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 .Jumbotron{
     background-image: url(img/Libreria.jpeg);
     background-position: center;
     background-size: cover;
-    height: 450px;
-    text-shadow: whites
+    height: 700px;
+    text-shadow: black
+}
+
+.nav-link{
+    color: white !important
+}
+
+h1{
+    margin-top: 30px;
+}
+
+p{
+    font-size: 30px;
+    }
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+
+h2{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.nleft{
+    background-color:black ;
+    background-image: url(img/library-863148_1280.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.servicios{
+    border: 2px solid green;
+}
+
+.feat{
+    border: 5px solid yellow;
+}
+
+.feat img {
+    object-fit: cover;
+}
+
+.feat h4{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    text-transform: uppercase;
 }
