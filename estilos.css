@@ -1,0 +1,11 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.Jumbotron{
+    background-image: url(img/Libreria.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    text-shadow: whites
+}
