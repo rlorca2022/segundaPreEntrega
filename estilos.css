@@ -37,7 +37,7 @@ iframe{
 
 
 h2{
-    background-color: brown;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
@@ -45,19 +45,20 @@ h2{
 }
 
 .nleft{
-    background-color:black ;
-    background-image: url(img/library-863148_1280.jpg);
-    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.8) ;
+    background-image: url(img/premio.jpg);
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 
 }
 
 .servicios{
-    border: 2px solid green;
+    border: 2px solid ;
 }
 
 .feat{
-    border: 5px solid yellow;
+    border: 5px solid ;
 }
 
 .feat img {
@@ -66,7 +67,7 @@ h2{
 
 .feat h4{
     text-align: center;
-    color: green;
+    color: #000000;
     font-size: 30px;
     text-transform: uppercase;
 }
